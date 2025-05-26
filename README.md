@@ -60,6 +60,10 @@ pip install -r requirements.txt
 ###Run the Streamlit app
 
 - streamlit run chatbot.py
-
+---
+###output
+![Output-1-1](Output/Output-1-1.png)
+![Output-1-2](Output/Output-1-2.png)
+![Output-1-3](Output/Output-1-3.png)
 
 

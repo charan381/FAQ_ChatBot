@@ -34,5 +34,32 @@ Manual customer support for routine inquiries can be time-consuming. This chatbo
 
 ---
 
-## 🏗️ Project Structure
+## 🧪 How It Works
+
+1. Each message from the user is added to a list of past messages (conversation history).
+2. This history is passed on every request to the Azure OpenAI API.
+3. The API generates a context-aware reply based on the history and the latest user message.
+4. Streamlit shows the conversation in an interactive chat-like interface.
+
+---
+
+## 🧪 How to Run the App
+
+### ✅ Prerequisites
+
+- Python 3.8 or higher
+- Azure OpenAI key, endpoint, and deployment ID
+
+### 📦 Installation
+
+```bash
+git clone https://github.com/your-username/chatbot_increff.git
+cd chatbot_increff
+pip install -r requirements.txt
+```
+###Run the Streamlit app
+
+- streamlit run chatbot.py
+
+
 

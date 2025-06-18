@@ -1,10 +1,10 @@
 import streamlit as st
 from openai import AzureOpenAI
 
-azure_api_key = "5kltyQSItMh9UKp5zzVmTqvPazWa0cj0RFks6nBAUmgCQDeQcuJoJQQJ99BDACHYHv6XJ3w3AAAAACOGHXrL"
-azure_endpoint = "https://sabhi-m9jvdfmo-eastus2.cognitiveservices.azure.com/"
-deployment_id = "gpt-4o"  
-api_version = "2024-12-01-preview"
+azure_api_key = "api_key"
+azure_endpoint = "endpoint"
+deployment_id = "gpt_model"  
+api_version = "api_version"
 
 client = AzureOpenAI(
     api_key=azure_api_key,
